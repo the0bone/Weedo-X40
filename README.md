@@ -1,6 +1,8 @@
 # Weedo-X40
 My work for the Weedo X40 IDEX 3D printer
 
+[![German Weedo X40(v2) 3D Drucker Review](https://img.youtube.com/vi/y7d468NICiw/0.jpg)](https://www.youtube.com/watch?v=y7d468NICiw "German Weedo X40(v2) 3D Drucker Review")
+
 While PrusaSlicer 2.4 includes PaintOn MultiMaterial, it is the optimal Slicer for the Weedo X40.
 Therefor I tried to create Profiles that will run with the default firmware.
 The released profiles are for:
