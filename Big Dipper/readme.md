@@ -16,14 +16,18 @@ This is how I wired the IDEX printer with his two extruders, dual axis and all e
 
 If it is not clear to see, I also did some pictures.
 For the Y and both Z Motors, I used the exising cables. For both E and X I bought new cables with 1m length.
-![Steppers](pictures/Steppers.jpg)
+
+<img src="pictures/Steppers.jpg" width="300">
+
 
 For the Fans on the Hotend you need to set the Jumpers to 24V. See the pinning on the picture.
-![FANS](pictures/fans.jpg)
+
+<img src="pictures/fans.jpg" width="300">
 
 Also for the Endstops and the proximity sensor the Pinning is very impotant. There is no polarity but you have to take the right PINs in the JST-XH connectors.
-![Endstops 1](pictures/endstops1.jpg)
-![Endstops 2](pictures/endstop2.jpg)
+
+<img src="pictures/endstops1.jpg" width="300">
+<img src="pictures/endstop2.jpg" width="300">
 
 ## PINout
 
