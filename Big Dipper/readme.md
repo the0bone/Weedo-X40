@@ -30,10 +30,21 @@ Also for the Endstops and the proximity sensor the Pinning is very impotant. The
 <img src="pictures/endstop2.jpg" width="300">
 
 ## PINout
+| Function | PIN | comment |
+| --- | --- | --- |
+| Y Axis Motor | Driver 0 | |
+| Z1 Axis Motor | Driver 1 | |
+| Z2 Axis Motor | Driver 2 | |
+| X Axis Motor | Driver 3 | left Printhead |
+| U Axis Motor | Driver 4 | right Printhead |
+| E0 Axis Motor | Driver 5 | left Extruder |
+| E1 Axis Motor | Driver 6 | right Extruder |
+| PSU 24V | Pwr in | |
+| PSU 24V | Bed in | |
+| Heated Bed | Bed out | |
+| Hotend E0 | E0 out | left Printhead |
+| Hotend E1 | E1 Out | right  Printhead |
 
-## Pinning
-Tasks
-1. update the Wireing, where the ribbon cables are. 
-2. Install the Big Dipper using the holder into the original place.
-3. cableing
-4. (open) Firmware
+## Tasks
+PINout
+(open) Firmware
