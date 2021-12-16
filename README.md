@@ -2,7 +2,8 @@
 My work for the Weedo X40 IDEX 3D printer
 
 ## Youtube Review (german)
-[![German Weedo X40(v2) 3D Drucker Review](https://img.youtube.com/vi/y7d468NICiw/0.jpg)](https://www.youtube.com/watch?v=y7d468NICiw "German Weedo X40(v2) 3D Drucker Review")
+Watch and Like my Video on YouTube. Even if you don't understand German, YouTube will give me some Cents for your click.
+[![German Weedo X40(v2) 3D Drucker Review](/images/WeedoX40_review_thumbnail.PNG)](https://www.youtube.com/watch?v=y7d468NICiw "German Weedo X40(v2) 3D Drucker Review")
 
 # PrusaSlicer Profile
 While PrusaSlicer 2.4 includes PaintOn MultiMaterial, it is the optimal Slicer for the Weedo X40.
