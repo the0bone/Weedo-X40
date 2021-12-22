@@ -26,18 +26,18 @@ M569 P0.3 S1 V50                                    ; X left Axis physical drive
 M569 P0.4 S0 V50                                    ; X right Axis physical drive 0.4 goes backwards 
 M569 P0.5 S1 V50                                    ; E left Axis physical drive 0.5 goes forwards 
 M569 P0.6 S1 V50                                    ; E right Axis physical drive 0.6 goes forwards 
-M584 X0.3 Y0.0 Z0.1:0.2 U0.4 E0.5:0.6           ; set drive mapping, Driver number for additional axes U for second X
-M350 X16 Y16 Z16:16 U16 E16:16 I1                      ; configure microstepping with interpolation
-M92 X94.14 Y94.14 Z400.00:400.00 U94.14 E94.90:94.90        ; set steps per mm
-M566 X900.00 Y900.00 Z80.00:80.00 U900.00 E120.00:120.00      ; set maximum instantaneous speed changes (mm/min)
-M203 X16000.00 Y16000.00 Z500.00:500.00 U16000.00 E1200.00:1200.00 ; set maximum speeds (mm/min)
-M201 X1000.00 Y1000.00 Z20.00:20.00 U1000.00 E250.00:250.00      ; set accelerations (mm/s^2)
-M906 X700 Y700 Z700:700 U700 E500:500 I30                ; set motor currents (mA) and motor idle factor in per cent
-M84 S30                                         ; Set idle timeout
+M584 X0.3 Y0.0 Z0.1:0.2 U0.4 E0.5:0.6               ; set drive mapping, Driver number for additional axes U for second X
+M350 X16 Y16 Z16:16 U16 E16:16 I1                   ; configure microstepping with interpolation
+M92 X94.14 Y94.14 Z400.00:400.00 U94.14 E94.90:94.90 ; set steps per mm
+M566 X660.00 Y660.00 Z600.00:600.00 U660.00 E300.00:300.00   ; set maximum instantaneous speed changes (mm/min) (jerk) !!! mm/min = 60 x mm/sec
+M203 X12000.00 Y7800.00 Z300.00:300.00 U12000.00 E1500.00:1500.00  ; set maximum speeds (mm/min) !!! mm/min = 60 x mm/sec
+M201 X3000.00 Y3000.00 Z3000.00:3000.00 U3000.00 E3000.00:3000.00      ; set accelerations (mm/s^2)   (old 1000 and 20 for Z)
+M906 X700 Y700 Z700:700 U700 E500:500 I30           ; set motor currents (mA) and motor idle factor in per cent
+M84 S30                                             ; Set idle timeout
 
 ; Axis Limits
-M208 X-51.80 U0 Y-11 Z0:0 S1                                ; set axis minima, X-51.8 for the Extruder to go negative into park position, S1 = set axis minimum
-M208 X300.00 U351.80 Y305 Z400:400 S0                          ; set axis maxima, U351.8 for the Extruder to go out of bed into park position, S0 = set axis maximum
+M208 X-51.80 U0 Y-11 Z0:0 S1                        ; set axis minima, X-51.8 for the Extruder to go negative into park position, S1 = set axis minimum
+M208 X300.00 U351.80 Y305 Z400:400 S0               ; set axis maxima, U351.8 for the Extruder to go out of bed into park position, S0 = set axis maximum
 
 ; Endstops
 M574 X1 S1 P"!io6.in"                            ; configure switch-type (e.g. microswitch) endstop for low end on X via pin io6.in
