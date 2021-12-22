@@ -6,7 +6,7 @@ G91              ; relative positioning
 G1 H2 Z5 F6000   ; lift Z relative to current position
 T0               ; make sure the tool with probe is selected
 G90              ; absolute positioning
-G1 X150 Y150 U-305 F6000 ; go to first probe point
+G1 X150 Y150 U351.8 F6000 ; go to first probe point
 G30              ; home Z by probing the bed
 
 ; Uncomment the following lines to lift Z after probing
