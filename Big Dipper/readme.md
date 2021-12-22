@@ -44,7 +44,17 @@ Also for the Endstops and the proximity sensor the Pinning is very impotant. The
 | Heated Bed | Bed out | |
 | Hotend E0 | E0 out | left Printhead |
 | Hotend E1 | E1 Out | right  Printhead |
+| X-Endstop | io6.in | see pic for PIN |
+| U-Endstop | io4.in | see pic for PIN |
+| Y-Endstop | io5.in | see pic for PIN |
+| Z-Probe | io0.in | only for Signal, see pic for PIN |
+| Bed Thermistor | out0 |  |
+| E0  Thermistor | out1 |  |
+| E1  Thermistor | out2 |  |
+| Case fan | 24V out |  |
+| Z-Probe | 24V out |  |
 
-## Tasks
-PINout
-(open) Firmware
+## Results
+Even if I'm still have the way down, the results are similar from quality but printed way faster with 80mm/sec that are also reached with the current settings.
+
+<img src="pictures/X40_RRF_Benchy_1.jpg" width="150"> <img src="pictures/X40_RRF_Benchy_2.jpg" width="150">
