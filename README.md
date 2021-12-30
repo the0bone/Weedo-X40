@@ -21,7 +21,7 @@ Use Purging Volumes on the right and set it to 30mm² in the advanced section, i
 Because the selection is not available from the print screen, you can directly slice the object for that mode. You can also only see half of the print bed.
 
 # RepRap conversion
-Follow me along how I turned the X40 into a RepRap Firmware Printer using the Fysetc Big Dipper Board. [--> Go to RRF](Big%20Dipper/)
+Follow me along how I turned the X40 into a Printer using RepRap Firmware. [--> Go to RRF](RRF/)
 
 # Donations
 If you like, you can let Amazon pay some donations to me by using this affiliate link for your next pruchases on Amazon Germany: https://amzn.to/3cwmAMx
