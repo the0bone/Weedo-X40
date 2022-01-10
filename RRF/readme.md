@@ -2,8 +2,8 @@
 
 You need:
 * Weedo X40(v2)
-* Duet 3 Mini 5+
-* Duet 3 Expansion for at least 2 additional drivers.
+* Fysetc Big Dipper
+* (alternative: Duet 3 Mini 5+ & Duet 3 Expansion for at least 2 additional drivers=
 * Wires
 * [JST SM](https://amzn.to/3GhMfW4) & [JST XH](https://amzn.to/3omI1pY)
 * Good Crimping Tool [ENGINEER PA-09](https://amzn.to/3os2x8O)
